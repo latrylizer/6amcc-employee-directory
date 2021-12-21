@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/6amcc-employee-directory/static/css/main.7d5568a2.chunk.css",
+    "main.js": "/6amcc-employee-directory/static/js/main.aeb77a50.chunk.js",
+    "main.js.map": "/6amcc-employee-directory/static/js/main.aeb77a50.chunk.js.map",
+    "runtime-main.js": "/6amcc-employee-directory/static/js/runtime-main.3010fb35.js",
+    "runtime-main.js.map": "/6amcc-employee-directory/static/js/runtime-main.3010fb35.js.map",
+    "static/js/2.4d5902dc.chunk.js": "/6amcc-employee-directory/static/js/2.4d5902dc.chunk.js",
+    "static/js/2.4d5902dc.chunk.js.map": "/6amcc-employee-directory/static/js/2.4d5902dc.chunk.js.map",
+    "index.html": "/6amcc-employee-directory/index.html",
+    "static/css/main.7d5568a2.chunk.css.map": "/6amcc-employee-directory/static/css/main.7d5568a2.chunk.css.map",
+    "static/js/2.4d5902dc.chunk.js.LICENSE.txt": "/6amcc-employee-directory/static/js/2.4d5902dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3010fb35.js",
+    "static/js/2.4d5902dc.chunk.js",
+    "static/css/main.7d5568a2.chunk.css",
+    "static/js/main.aeb77a50.chunk.js"
+  ]
+}
