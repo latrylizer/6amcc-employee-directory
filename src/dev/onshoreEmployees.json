@@ -1,0 +1,335 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Bobby Manuel",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+
+        {
+            "id": 2,
+            "name": "Brad Chipman",
+            "position": "Maintenance Technician",
+            "email": "brad.chipman@citylightcs.com",
+            "birthday": "May 3",
+            "hireDate": "January 2, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 3,
+            "name": "Brian Bouler",
+            "position": "Director of IT/CoreAssist",
+            "email": "brian.bouler@6amcc.com",
+            "birthday": "September 8",
+            "hireDate": "September 17, 2018",
+            "contact": "+1 901-679-1381",
+            "department": ""
+        },
+        {
+            "id": 4,
+            "name": "Caitlin Chapman",
+            "position": "Property Coordinator",
+            "email": "caitlin.chipman@crestcore.com",
+            "birthday": "",
+            "hireDate": "November 8, 2021",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 5,
+            "name": "Chandra Webb",
+            "position": "Relations Manager",
+            "email": "chandra.webb@crestcore.com",
+            "birthday": "",
+            "hireDate": "June 22, 2021",
+            "contact": "+1 731-267-2015",
+            "department": ""
+        },
+        {
+            "id": 6,
+            "name": "Christie Rider",
+            "position": "Accounting Manager",
+            "email": "christie.rider@crestcore.com",
+            "birthday": "December 7",
+            "hireDate": "",
+            "contact": "+1 731-267-2015",
+            "department": ""
+        },
+        {
+            "id": 7,
+            "name": "Chuck Harris",
+            "position": "Field Technician",
+            "email": "chick.harris@crestcore.com",
+            "birthday": "",
+            "hireDate": "",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 8,
+            "name": "Detroy Williams",
+            "position": "Maintenance Technician",
+            "email": "detroy.williams@citylightcs.com",
+            "birthday": "",
+            "hireDate": "May 17, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 9,
+            "name": "David Heathcoat",
+            "position": "Carpentry Tech",
+            "email": "David.Heathcoat@citylightcs.com",
+            "birthday": "May 26",
+            "hireDate": "December 17, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 10,
+            "name": "Dean Harris",
+            "position": "Vice President/Sales",
+            "email": "dean.harris@crestcore.com",
+            "birthday": "October 28",
+            "hireDate": "April 1, 2012",
+            "contact": "+1 901-619-6170",
+            "department": ""
+        },
+        {
+            "id": 11,
+            "name": "Debbie Tolbert",
+            "position": "Leasing Supervisor",
+            "email": "debbie.tolbert@crestcore.com",
+            "birthday": "December 25",
+            "hireDate": "July 5, 2016",
+            "contact": "+1 9016-479-199",
+            "department": ""
+        },
+        {
+            "id": 12,
+            "name": "Derek Fleming",
+            "position": "Senior Asset Manager",
+            "email": "Derek.Fleming@crestcore.com",
+            "birthday": "February 25",
+            "hireDate": "March 8, 2019",
+            "contact": "+1 901-258-3700",
+            "department": ""
+        },
+        {
+            "id": 13,
+            "name": "Edward Reed",
+            "position": "Maintenance Technician",
+            "email": "edward.reed@citylightcs.com",
+            "birthday": "",
+            "hireDate": "",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 14,
+            "name": "Douglas Skipworth",
+            "position": "Co-Founder and CEO",
+            "email": "douglas.skipworth@6amcc.com",
+            "birthday": "November 10",
+            "hireDate": "January 1, 2013",
+            "contact": "+1 901-550-1998",
+            "department": ""
+        },
+        {
+            "id": 15,
+            "name": "Harry Tran",
+            "position": "Field Technician",
+            "email": "harry.tran@crestcore.com",
+            "birthday": "August 1",
+            "hireDate": "September 13, 2018",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 16,
+            "name": "James Pridmore",
+            "position": "Maintenance Technician",
+            "email": "james.pridemore@citylightcs.com",
+            "birthday": "March 9",
+            "hireDate": "October 17, 2018",
+            "contact": "+1 901-497-7957",
+            "department": ""
+        },
+        {
+            "id": 17,
+            "name": "Jennifer Whipple",
+            "position": "Human Resources Manager",
+            "email": "jennifer.whipple@6amcc.com",
+            "birthday": "July 15",
+            "hireDate": "June 5, 2017",
+            "contact": "+1 901-674-7440",
+            "department": ""
+        },
+        {
+            "id": 18,
+            "name": "Jerome Watkins",
+            "position": "Maintenance Technician",
+            "email": "Jerome.Watkins@citylightcs.com",
+            "birthday": "July 1",
+            "hireDate": "April 8, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 19,
+            "name": "Jim Johnson",
+            "position": "Crestcore Director of Operations",
+            "email": "jim.johnson@citylightcs.com",
+            "birthday": "August 28",
+            "hireDate": "March 8, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 20,
+            "name": "Koie Patrick",
+            "position": "Accounts Receivable Manager",
+            "email": "koie.patrick@6amcc.com",
+            "birthday": "April 20",
+            "hireDate": "November 26, 2018",
+            "contact": "+1 901-239-1399",
+            "department": ""
+        },
+        {
+            "id": 21,
+            "name": "Lakeisha Westbrooks",
+            "position": "Relations Manager",
+            "email": "lakeisha.westbrooks@crestcore.com",
+            "birthday": "March 25",
+            "hireDate": "October 21, 2015",
+            "contact": "+1 901-649-6137",
+            "department": ""
+        },
+        {
+            "id": 22,
+            "name": "Lee Bell",
+            "position": "Maintenance Technician",
+            "email": "Lee.Bell@citylightcs.com",
+            "birthday": "May 27",
+            "hireDate": "July 1, 2016",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 23,
+            "name": "Leslie Allen",
+            "position": "Maintenance Assistant",
+            "email": "Leslie.Allen@citylightcs.com",
+            "birthday": "November 4",
+            "hireDate": "44049",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 24,
+            "name": "Mandy Reynolds",
+            "position": "Loan Manager",
+            "email": "Mandy.Reynolds@corelendfinancial.com",
+            "birthday": "September 27",
+            "hireDate": "December 23, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 25,
+            "name": "Matt Jones",
+            "position": "Chief Operating Officer, 6AMCC",
+            "email": "matt.jones@corelendfinancial.com",
+            "birthday": "June 12",
+            "hireDate": "January 7, 2019",
+            "contact": "+1 501-317-8987",
+            "department": ""
+        },
+        {
+            "id": 26,
+            "name": "Raymond Morris",
+            "position": "Maintenance Technician - Carpenter",
+            "email": "raymond.morris@citylighcs.com",
+            "birthday": "",
+            "hireDate": "April 20, 2021",
+            "contact": "10001",
+            "department": ""
+        },
+        {
+            "id": 27,
+            "name": "Richey Ward",
+            "position": "Director of Operations",
+            "email": "richey.ward@corelendfinancial.com",
+            "birthday": "January 16",
+            "hireDate": "April 16, 2019",
+            "contact": "+1 901-208-3835",
+            "department": ""
+        },
+        {
+            "id": 28,
+            "name": "Robert Matlock",
+            "position": "Assistant Operations Manager",
+            "email": "Robert.Matlock@citylightcs.com",
+            "birthday": "October 8",
+            "hireDate": "September 2, 2016",
+            "contact": "+1 9012931467",
+            "department": ""
+        },
+        {
+            "id": 29,
+            "name": "Shari Currey",
+            "position": "Transaction Accounting Manager",
+            "email": "shari.currey@citylightcs.com",
+            "birthday": "November 23",
+            "hireDate": "September 3, 2018",
+            "contact": "+1 901-337-1522",
+            "department": ""
+        },
+        {
+            "id": 30,
+            "name": "Sheila Bryan",
+            "position": "District Portfolio Manager",
+            "email": "Sheila.Bryan@crestcore.com",
+            "birthday": "August 28",
+            "hireDate": "November 25, 2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 31,
+            "name": "Stacy Hancock",
+            "position": "Talent and Acquisition Manager",
+            "email": "stacy.hancock@6amcc.com",
+            "birthday": "August 30",
+            "hireDate": "July 1, 2017",
+            "contact": "+1  901-494-7562",
+            "department": ""
+        },
+        {
+            "id": 32,
+            "name": "Taylor Ray",
+            "position": "District Portfolio Manager",
+            "email": "Taylor.Ray@crestcore.com",
+            "birthday": "May 12",
+            "hireDate": "November 16, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 33,
+            "name": "Will Adair",
+            "position": "Project Manager",
+            "email": "Will.adair@crestcore.com",
+            "birthday": "Birthdate:",
+            "hireDate": "June 14, 2021",
+            "contact": "",
+            "department": ""
+        }
+    ]
+}

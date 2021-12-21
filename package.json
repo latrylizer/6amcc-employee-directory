@@ -6,10 +6,18 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "fbemitter": "^3.0.0",
+    "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^1.0.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "json-loader": "^0.5.7",
+    "url-loader": "^4.1.1"
   }
 }
