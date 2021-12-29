@@ -1,0 +1,154 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Bobby Manuel",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 2,
+            "name": "Brad Chipman",
+            "position": "Maintenance Technician​​​​​​​​​​​​​​",
+            "email": "brad.chipman@citylightcs.com",
+            "birthday": "May 3",
+            "hireDate": "1/2/2019",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 3,
+            "name": "Charmaine Sanchez",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 4,
+            "name": "David Heathcoat",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 5,
+            "name": "Edward Reed",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 6,
+            "name": "James Pridmore",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 7,
+            "name": "Jeferson Capanas",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 8,
+            "name": "Jen Floresca",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 9,
+            "name": "Jerome Watkins",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 10,
+            "name": "Jun James Doringo",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 11,
+            "name": "Lee Bell",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 12,
+            "name": "Leslie Allen",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 13,
+            "name": "Oliver Reyes",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 14,
+            "name": "Raymond Morris",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 15,
+            "name": "Robert Matlock",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        }
+    ]
+}

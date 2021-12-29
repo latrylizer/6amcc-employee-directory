@@ -1,0 +1,54 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Matt Jones",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 2,
+            "name": "Karl Guano",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 3,
+            "name": "Mandy Reynolds",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 4,
+            "name": "Richey Ward",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        },
+        {
+            "id": 5,
+            "name": "Victor Arquero",
+            "position": "Citylight Plumbing Field Manager",
+            "email": "bobby.manuel@citylightcs.com",
+            "birthday": "May 29",
+            "hireDate": "March 4, 2020",
+            "contact": "",
+            "department": ""
+        }
+    ]
+}

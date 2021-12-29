@@ -1,48 +1,66 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import employer from '../../dev/onshoreEmployees.json'
+import citylight from '../../dev/citylight.json'
+import corelend from '../../dev/corelend.json'
+import crestcore from '../../dev/crestcore.json'
+import sixamcc from '../../dev/onshoreEmployees.json'
 import { setAllEmployees } from '../../redux/actions/allEmployees'
 import EventEmitter from '../../utils/emitter'
 
 const Navigation = () => {
     const dispatch = useDispatch()
-    const handleOnClick = (type) => {
-        if (type === '6AMCC') {
-            dispatch(setAllEmployees(employer.employees))
-            EventEmitter.emit('employees', employer.employees)
-            console.log('list of employees', employer)
+    const [activeNavItem, setActiveNavItem] = useState(0)
+
+    const removeActive = () => {
+        const element = document.getElementsByClassName('list-group')[0]
+        for (let num1 = 0; num1 < element.children.length; num1++) {
+            if (element.children[num1].classList.contains('active')) {
+                element.children[num1].classList.remove('active')
+            }
         }
     }
 
-    const employees = [
-        {
-            id: 1,
-            name: 'Latryll Alimes',
-            position: 'Remote Team Member',
-            email: 'latrylizer@gmail.com',
-            hireDate: 'November 16',
-            contact: 555325481,
-            department: '6AMCC',
-        },
-        {
-            id: 2,
-            name: 'Kyn Jupilou Empremiado',
-            position: 'Remote Team Member',
-            email: 'latrylizer@gmail.com',
-            hireDate: 'November 16',
-            contact: 555325481,
-            department: '6AMCC',
-        },
-        {
-            id: 3,
-            name: 'Sheanne Noreen Bernardino',
-            position: 'Remote Team Member',
-            email: 'latrylizer@gmail.com',
-            hireDate: 'November 16',
-            contact: 555325481,
-            department: '6AMCC',
-        },
-    ]
+    const handleOnClick = (type) => {
+        if (type === '6AMCC') {
+            const department = {
+                department: 'Onshore',
+                employees: sixamcc,
+            }
+            removeActive()
+            setActiveNavItem(1)
+            dispatch(setAllEmployees(sixamcc.employees))
+            EventEmitter.emit('employees', department)
+            console.log('list of employees', sixamcc)
+        } else if (type === 'CITYLIGHT') {
+            const department = {
+                department: 'Citylight',
+                employees: citylight,
+            }
+            setActiveNavItem(2)
+            dispatch(setAllEmployees(citylight.employees))
+            EventEmitter.emit('employees', department)
+            console.log('list of employees', citylight)
+        } else if (type === 'CORELEND') {
+            const department = {
+                department: 'Corelend',
+                employees: corelend,
+            }
+            setActiveNavItem(3)
+            dispatch(setAllEmployees(corelend.employees))
+            EventEmitter.emit('employees', department)
+            console.log('list of employees', corelend)
+        } else if (type === 'CRESTCORE') {
+            const department = {
+                department: 'Crestcore',
+                employees: crestcore,
+            }
+            setActiveNavItem(4)
+            dispatch(setAllEmployees(crestcore.employees))
+            EventEmitter.emit('employees', department)
+            console.log('list of employees', crestcore)
+        }
+    }
+
     return (
         <div
             className="col-md-2 pr-0 bg-dark text-light main-navigation position-fixed"
@@ -68,14 +86,41 @@ const Navigation = () => {
                     <ul className="list-group">
                         <li
                             onClick={() => handleOnClick('6AMCC')}
-                            className="list-group-item active"
+                            className={
+                                'list-group-item ' +
+                                (activeNavItem === 1 ? 'active' : '')
+                            }
                         >
                             6AMCC
                         </li>
                         <li className="list-group-item">COREASSIST</li>
-                        <li className="list-group-item">CITYLIGHT</li>
-                        <li className="list-group-item">CORELEND</li>
-                        <li className="list-group-item">CRESTCORE</li>
+                        <li
+                            onClick={() => handleOnClick('CITYLIGHT')}
+                            className={
+                                'list-group-item ' +
+                                (activeNavItem === 2 ? 'active' : '')
+                            }
+                        >
+                            CITYLIGHT
+                        </li>
+                        <li
+                            onClick={() => handleOnClick('CORELEND')}
+                            className={
+                                'list-group-item ' +
+                                (activeNavItem === 3 ? 'active' : '')
+                            }
+                        >
+                            CORELEND
+                        </li>
+                        <li
+                            onClick={() => handleOnClick('CRESTCORE')}
+                            className={
+                                'list-group-item ' +
+                                (activeNavItem === 4 ? 'active' : '')
+                            }
+                        >
+                            CRESTCORE
+                        </li>
                     </ul>
                 </div>
 

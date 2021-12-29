@@ -2,17 +2,18 @@ import React, { useEffect, useState } from 'react'
 import EventEmitter from '../../utils/emitter'
 const MainPage = () => {
     const [employees, setEmployees] = useState(0)
+    const [department, setDepartment] = useState(0)
 
     useEffect(() => {
         const listener = EventEmitter.addListener('employees', (data) => {
-            console.log('Datas', data.employees)
-            setEmployees(data)
+            console.log('Datas', data.employees.employees)
+            setEmployees(data.employees.employees)
+            setDepartment(data.department)
         })
         return () => {
             listener.remove()
         }
     }, [])
-
     const AllEmployees = employees
     if (AllEmployees.length > 0) {
         return (
@@ -20,7 +21,7 @@ const MainPage = () => {
                 <div className="row">
                     {AllEmployees.map((employee, index) => {
                         const imgLocation =
-                            '/img/Onshore/' + employee.name + '.jpg'
+                            '/img/' + department + '/' + employee.name + '.jpg'
 
                         return (
                             <div
