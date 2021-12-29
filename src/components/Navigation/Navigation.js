@@ -78,8 +78,8 @@ const Navigation = () => {
                     <header className="lead font-weight-normal">
                         Employee Directory
                     </header>
-                    <hr className="bg-light" />
                 </div>
+                <hr className="bg-light" />
             </div>
             <div className="container h-100 pl-0 pr-0 d-flex flex-column">
                 <div className="col-md  pl-0 pr-0">
